@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Math Note Solver</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card">
+    <h1>Math Note Solver ✍️</h1>
+    <p class="subtitle">Type an expression or a linear equation and see every step.</p>
+
+    <form id="solve-form" autocomplete="off">
+      <input id="expression" type="text" placeholder="e.g. 3+4*2^2   or   2x+3x-4=21" autofocus>
+      <button type="submit">Solve</button>
+    </form>
+
+    <div class="examples">
+      <span>Try:</span>
+      <button type="button" class="chip" data-example="5+3*2">5+3*2</button>
+      <button type="button" class="chip" data-example="(10/2)+3*4">(10/2)+3*4</button>
+      <button type="button" class="chip" data-example="3+4*2^2">3+4*2^2</button>
+      <button type="button" class="chip" data-example="2x+3x-4=21">2x+3x-4=21</button>
+      <button type="button" class="chip" data-example="-x+10=4">-x+10=4</button>
+    </div>
+
+    <section id="error" class="error" hidden></section>
+
+    <section id="result" hidden>
+      <h2 id="result-type"></h2>
+      <ol id="steps"></ol>
+      <div class="answer"><span>Answer</span><strong id="answer"></strong></div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
