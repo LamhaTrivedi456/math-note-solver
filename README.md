@@ -1,4 +1,4 @@
-# Math Note Solver ✍️
+# Math Note Solver 
 
 A web application that solves arithmetic expressions and linear equations with step-by-step explanations.
 Inspired by the iPad Math Notes feature. The parsing engine is written from scratch in Java, with no expression library.
