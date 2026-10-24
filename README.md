@@ -2,6 +2,8 @@
 
 A web application that solves arithmetic expressions and linear equations with step-by-step explanations.
 Inspired by the iPad Math Notes feature. The parsing engine is written from scratch in Java, with no expression library.
+<img width="753" height="686" alt="Screenshot 2026-10-24 155257" src="https://github.com/user-attachments/assets/03455b0c-7843-4be4-aa33-fb11e4dd6820" />
+
 
 ## Features
 - Expressions such as `5+3*2`, `(10/2)+3*4`, `3+4*2^2`, `2(3+4)`
