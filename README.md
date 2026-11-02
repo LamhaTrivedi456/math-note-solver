@@ -1,5 +1,9 @@
 # Math Note Solver ✍️
 
+
+**Live demo:** https://math-note-solver.onrender.com (free tier, may take about a minute to wake up)
+
+
 A web application that solves arithmetic expressions and linear equations with step-by-step explanations.
 Inspired by the iPad Math Notes feature. The parsing engine is written from scratch in Java, with no expression library.
 
